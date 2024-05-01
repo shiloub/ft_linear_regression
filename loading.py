@@ -37,3 +37,4 @@ def ft_tqdm(iterable):
         print(display, end="\r")
         i += 1
         yield
+    print()
