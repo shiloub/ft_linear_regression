@@ -16,9 +16,9 @@ def get_thetas():
         thetas = file.read()
         theta0 = float(thetas.split("|")[0])
         theta1 = float(thetas.split("|")[1])
-        print(thetas)
     except:
         print("Error loading thetas.txt file")
+        exit(0)
     return (theta0, theta1)
 
     
